@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suya Buddy Restaurant Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/logo-2.png" />
+  </head>
+  <body>
+    <section>
+      <nav
+        class="navbar px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+      >
+        <div
+          class="container flex flex-wrap items-center justify-between mx-auto"
+        >
+          <a href="https://sooyahbistro.com/" class="flex items-center">
+            <img
+              src="img/logo-2.png"
+              class="h-14 mr-3 sm:h-14"
+              alt="Suya Buddy Logo"
+            />
+          </a>
+          <div class="flex md:order-2">
+            <button
+              type="button"
+              class="text-white bg-red-700 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Get started
+            </button>
+            <button
+              data-collapse-toggle="navbar-sticky"
+              type="button"
+              class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-sticky"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-sticky"
+          >
+            <ul
+              class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="relative bg-black">
+      <div class="absolute inset-0">
+        <!-- <img
+          class="w-full h-full object-cover opacity-75"
+          src="img/bg1.png"
+          alt="Food Event"
+        /> -->
+        <video
+          src="img/video2.mp4"
+          autoplay="autoplay"
+          loop="true"
+          muted
+          class="w-full h-full object-cover"
+        ></video>
+      </div>
+      <div
+        class="relative flex items-center justify-center min-h-screen text-center"
+      >
+        <div class="bg-black bg-opacity-50 p-8 rounded-lg">
+          <h2 class="text-4xl font-bold text-white mb-4">
+            Fuel Your Event with Our
+            <span class="text-red-500">Delicious Food and Delicacies</span>
+          </h2>
+          <p class="text-white text-lg mb-8">
+            We offer a wide variety of dishes and cuisines to suit any taste or
+            dietary preference. Let us take care of the food, so you can focus
+            on enjoying your event.
+          </p>
+          <a
+            href="#"
+            class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full"
+            >Get A Quote</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="flex flex-wrap items-center justify-center max-w-7xl mx-auto"
+    >
+      <div class="w-full md:w-1/2 lg:w-1/2 px-4 sm:text-center text-center">
+        <h1 class="text-4xl lg:text-5xl font-bold mb-4">
+          Food that <span class="text-red-600">Steals the Show</span> at Every
+          Event
+        </h1>
+        <p class="text-lg lg:text-xl mb-8">
+          Treat your taste buds to delectable dishes and snacks that are perfect
+          for any special event. Our menu boasts a variety of delicious options
+          that are sure to impress and leave your guests wanting more!
+        </p>
+        <a
+          href="#"
+          class="inline-block text-lg bg-red-700 text-white font-bold py-3 px-8 rounded hover:bg-red-600 transition duration-200"
+          >Order Now</a
+        >
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/2 px-4 order-first sm:order-last">
+        <img src="/img/bg3.png" alt="Delicious food" class="rounded-lg h-100" />
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto">
+      <div class="flex flex-wrap justify-center items-stretch">
+        <div class="w-full md:w-1/2 lg:w-1/4 p-4 items-stretch">
+          <div
+            class="bg-red-700 rounded-lg overflow-hidden flex flex-col h-full"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="img/food3.png"
+              alt="Food 1"
+            />
+            <div class="p-4">
+              <h3 class="text-white font-bold text-lg mb-2">Suya Melt</h3>
+              <p class="text-white text-base">
+                Beef, Chicken or Mixed Suya, Mozzarella Cheese,
+              </p>
+              <p class="text-white text-base mt-2">
+                Chipotle Sauce in a Flat Wrap.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+          <div
+            class="bg-red-700 rounded-lg overflow-hidden flex flex-col h-full"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="img/food1.png"
+              alt="Food 2"
+            />
+            <div class="p-4">
+              <h3 class="text-white font-bold text-lg mb-2">Chicken Suya</h3>
+              <p class="text-white text-base">
+                Sooyah Bistro Signature Wings, Marinated in Our Special Sauce.
+              </p>
+              <p class="text-white text-base mt-2">
+                Flame Grilled to Perfection
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+          <div
+            class="bg-red-700 rounded-lg overflow-hidden flex flex-col h-full"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="img/bg3.png"
+              alt="Food 3"
+            />
+            <div class="p-4">
+              <h3 class="text-white font-bold text-lg mb-2">Suya Sharwarma</h3>
+              <p class="text-white text-base">
+                Beef, Chicken or Mixed Suya, Sausage, Cabbage, Grilled
+              </p>
+              <p class="text-white text-base mt-2">
+                Pepper & Onions, Special Sauce
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+          <div
+            class="bg-red-700 rounded-lg overflow-hidden flex flex-col h-full"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="img/food4.png"
+              alt="Food 4"
+            />
+            <div class="p-4">
+              <h3 class="text-white font-bold text-lg mb-2">Beef Suya</h3>
+              <p class="text-white text-base">
+                Beef Suya served with cabbage and onions sold per stick
+              </p>
+              <p class="text-white text-base mt-2">With Beef and Assorted</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-gradient-to-bl from-red-100 to-red-900 text-white relative mt-12"
+    >
+      <div class="absolute inset-0">
+        <img
+          class="w-full h-full object-cover opacity-75"
+          src="img/bg1.png"
+          alt="Food Event"
+        />
+      </div>
+
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between px-4 py-12 items-center mx-auto"
+      >
+        <div
+          class="w-full flex flex-col justify-center items-center bg-black bg-opacity-50 p-8 rounded-lg relative"
+        >
+          <div class="bg-white p-6 rounded-full mb-8">
+            <i class="bi bi-megaphone text-gray-800 text-4xl"></i>
+          </div>
+          <h3 class="text-3xl font-medium mb-4 text-white">
+            We are just a call and a click away!
+          </h3>
+          <p class="text-lg leading-6 mb-4 text-center">
+            Satisfy your hunger and indulge in a culinary journey with our
+            expertly crafted menu of delicious dishes. Come hungry, leave happy
+            - our event is a food lover's dream!
+          </p>
+          <button
+            class="bg-white text-gray-800 font-medium py-2 px-4 rounded-lg hover:bg-gray-200 transition duration-300"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div
+        class="mx-auto h-full flex justify-center items-center bg-black py-3"
+      >
+        <p class="text-center text-white font-medium">
+          Copyright © 2023 Suya Buddy. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
